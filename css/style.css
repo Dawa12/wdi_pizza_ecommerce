@@ -12,34 +12,13 @@ header {
 }
 
 header h1 {
+  font-size: 50px;
   color: white;
   margin: 0;
   display: block;
   float: left;
-  padding-left: 7%;
+  padding-left: 5%;
   padding-top: 2%;
-}
-
-header nav {
-  float: right;
-  padding: 10px;
-  margin: 10px 20px 0 0;
-
-}
-
-nav ul {
-  list-style-type: none;
-}
-nav li {
-  display: inline-block;
-  padding: 10px;
-  border-radius: 5px;
-  background-color: red;
-}
-
-nav a {
-  text-decoration: none;
-  color: white;
 }
 
 footer {
@@ -65,12 +44,11 @@ background-size: cover;
   background-color: rgba(25, 24, 26, .7);
   color: white;
   width: 300px;
-  margin-left: 8%;
   box-shadow: 2px 2px 2px black;
   padding: 10px;
-  margin-top: 30px;
   border-radius: 10px;
   border: 1px solid white;
+  margin: 20px 100px;
 }
 .pies {
   margin-top: 3%;
@@ -91,6 +69,11 @@ background-size: cover;
   background-color: orange;
 }
 
+#small_pie:hover {
+  border: 20px double black;
+  background-color: red;
+}
+
 #medium_pie {
   margin: 30px 20px 10px 80px;
   width: 300px;
@@ -100,7 +83,10 @@ background-size: cover;
   background-color: orange;
   margin-left: 5%;
 }
-
+#medium_pie:hover {
+  border: 20px double black;
+  background-color: red;
+}
 #large_pie {
   margin: 10px 0 0 10px;
   width: 350px;
@@ -108,9 +94,12 @@ background-size: cover;
   border: 10px solid black;
   border-radius: 50%;
   background-color: orange;
-
 }
 
+#large_pie:hover {
+    border: 20px double black;
+  background-color: red;
+}
 .form {
   width: 40%;
   float: left;
